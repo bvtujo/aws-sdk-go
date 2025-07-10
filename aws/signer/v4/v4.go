@@ -93,6 +93,7 @@ var ignoredHeaders = rules{
 	excludeList{
 		mapRule{
 			authorizationHeader: struct{}{},
+			"Expect":            struct{}{},
 			"User-Agent":        struct{}{},
 			"X-Amzn-Trace-Id":   struct{}{},
 		},
